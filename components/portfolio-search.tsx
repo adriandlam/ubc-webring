@@ -32,7 +32,9 @@ export function PortfolioSearch({ portfolios }: { portfolios: Portfolio[] }) {
         />
       </div>
       <p className="text-xs pl-2.5 mt-2">
-        <span className="text-foreground font-medium">{portfolios.length}</span>{" "}
+        <span className="text-foreground font-medium">
+          {filteredPortfolios.length}
+        </span>{" "}
         <span className="text-muted-foreground font-mono">portfolios</span>
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
