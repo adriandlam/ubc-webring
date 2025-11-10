@@ -25,6 +25,12 @@ const PORTFOLIOS: Omit<Portfolio, "displayUrl">[] = [
     graduationYear: 2026,
     major: "Statistics",
   },
+  {
+    name: "Ryan Hararki",
+    url: "https://www.haraki.org",
+    graduationYear: 2026,
+    major: "Business + Computer Science",
+  },
 ];
 
 export default PORTFOLIOS;
