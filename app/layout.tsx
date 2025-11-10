@@ -66,16 +66,14 @@ export default function RootLayout({
               <GitHubIcon />
             </Link>
           </Button>
-          <div className="container mx-auto px-4 pt-12 pb-20">
-            {children}
-          </div>
+          <div className="container mx-auto px-4 pt-12 pb-20">{children}</div>
           <div className="bg-linear-to-t from-background to-transparent h-24 fixed bottom-0 left-0 right-0" />
           <button
             className="fixed bottom-4 left-1/2 -translate-x-1/2"
             type="button"
           >
             <Link
-              href="https://github.com/adriandlam/ubc-webring/pulls"
+              href="https://github.com/adriandlam/ubc-webring/fork"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-1 text-sm underline underline-offset-4 decoration-border hover:decoration-accent-foreground transition-colors duration-200"
