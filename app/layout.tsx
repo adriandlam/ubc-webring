@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 
 export const GitHubIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -82,6 +83,7 @@ export default function RootLayout({
             </Link>
           </button>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
