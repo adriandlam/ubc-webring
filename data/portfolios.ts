@@ -31,6 +31,12 @@ const PORTFOLIOS: Omit<Portfolio, "displayUrl">[] = [
     graduationYear: 2026,
     major: "Business + Computer Science",
   },
+  {
+    name: "William Chen",
+    url: "https://wmchen.com",
+    graduationYear: 2021,
+    major: "Political Science",
+  },
 ];
 
 export default PORTFOLIOS;
